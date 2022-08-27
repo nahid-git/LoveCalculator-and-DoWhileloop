@@ -2,13 +2,13 @@ public class ovi {
     static Scanner in = new Scanner(System.in);
     static String userInput = null;
    public static void main(String[] args) {
-    ovii();
+    nahid();
     while (true)
         {
             System.out.print("Are You Want to Continue (Y/N) ?");
             userInput = scan.next();
             if (userInput.equalsIgnoreCase("Y"))
-                ovii();
+                nahid();
             else if (userInput.equalsIgnoreCase("N"))
             {
                 System.out.print("Thank you !!");
@@ -21,7 +21,7 @@ public class ovi {
         }
 
   }
-  public static void ovii(){
+  public static void nahid(){
     float a,b=0,c=0;
        int x;
        while(( a =in.nextFloat())!=2){
