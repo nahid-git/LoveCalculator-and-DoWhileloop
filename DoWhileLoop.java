@@ -1,14 +1,14 @@
-public class ovi {
+public class nahid {
     static Scanner in = new Scanner(System.in);
     static String userInput = null;
    public static void main(String[] args) {
-    nahid();
+    work();
     while (true)
         {
             System.out.print("Are You Want to Continue (Y/N) ?");
             userInput = scan.next();
             if (userInput.equalsIgnoreCase("Y"))
-                nahid();
+                work();
             else if (userInput.equalsIgnoreCase("N"))
             {
                 System.out.print("Thank you !!");
@@ -21,7 +21,7 @@ public class ovi {
         }
 
   }
-  public static void nahid(){
+  public static void work(){
     float a,b=0,c=0;
        int x;
        while(( a =in.nextFloat())!=2){
